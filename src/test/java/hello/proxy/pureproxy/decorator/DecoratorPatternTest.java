@@ -15,7 +15,7 @@ public class DecoratorPatternTest {
     @Test
     void withDecorator() {
         RealComponent realComponent = new RealComponent();
-        
+
         DecoratorPatternClient client = new DecoratorPatternClient(realComponent);
         client.execute();
     }
